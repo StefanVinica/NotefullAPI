@@ -4,7 +4,7 @@ This is a API for the Notefull App
 
 ## Set up
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Complete the following steps to deploy the server
 
 1. Set up the ENV File
 
