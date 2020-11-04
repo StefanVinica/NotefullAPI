@@ -7,6 +7,7 @@ const errorHandler = require('./errorhandler')
 const validatebearertoken = require('./validate-bearer-token')
 const { NODE_ENV } = require('./config')
 const foldersRouter = require('../folders/folders-router')
+const notesRouter = require('../notes/notes-router')
 
 const app = express()
 
@@ -20,6 +21,7 @@ app.use(cors())
 app.use(validatebearertoken)
 
 app.use('/api',foldersRouter)
+app.use('/api',notesRouter)
 
 app.get('/', (req,res)=>{
     res.send('Hello, world!')

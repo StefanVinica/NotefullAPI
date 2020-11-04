@@ -52,3 +52,12 @@
 {"message":"Unauthorized request to path: /api/folders","level":"error"}
 {"message":"Unauthorized request to path: /api/folders/2","level":"error"}
 {"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"insert into \"note\" (\"folder\", \"note_content\", \"note_name\") values ($1, $2, $3) returning * - insert or update on table \"note\" violates foreign key constraint \"note_folder_fkey\"","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"insert into \"note\" (\"folder\", \"note_content\", \"note_name\") values ($1, $2, $3) returning * - insert or update on table \"note\" violates foreign key constraint \"note_folder_fkey\"","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/3","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/3","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
