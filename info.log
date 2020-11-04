@@ -50,3 +50,5 @@
 {"message":"Unauthorized request to path: /api/folders/1","level":"error"}
 {"message":"Folder with id 1 was deleted","level":"info"}
 {"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}

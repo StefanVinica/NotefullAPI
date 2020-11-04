@@ -23,5 +23,10 @@ deleteFolder(knex,id){
     .where({id})
     .delete()
 },
+updateFolder(knex,id,newFolder){
+    return knex('folders')
+    .where({id})
+    .update(newFolder)
+},
 }
 module.exports = FolderService
