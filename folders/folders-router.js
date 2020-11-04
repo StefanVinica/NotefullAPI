@@ -39,5 +39,43 @@ foldersRouter
     })
     .catch(next)
 })
+foldersRouter
+.route('/folders/:folder_Id')
+.get((req,res,next)=>{
+    const {folder_Id} = req.params
+    FolderServices.getById(req.app.get('db'),folder_Id)
+    .then(folder => {
+        if(!folder){
+            logger.error(`Folder with id ${folder_Id} not Found`)
+            return res.status(404).json({
+                error: {message: 'Folder not Found'}
+            })
+        }
+        res.json({
+            id: folder.id,
+            name: xss(folder.folder_name)
+        })
+        .catch(next)
+    })
+})
+.delete((req,res, next)=>{
+    const {folder_Id} = req.params
+    FolderServices.getById(req.app.get('db'),folder_Id)
+    .then(folder =>{
+        if(!folder){
+            logger.error(`Folder with id ${folder_Id} not Found`)
+            return res.status(404).json({
+                error: {message: 'Folder not Found'}
+            })
+        } 
+    })
+    FolderServices.deleteFolder(req.app.get('db'),folder_Id)
+    .then(()=>{
+        logger.info(`Folder with id ${folder_Id} was deleted`)
+        res.status(204).end()
+    })
+    .catch(next)
+})
+
 
 module.exports = foldersRouter

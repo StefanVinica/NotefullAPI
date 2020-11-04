@@ -10,3 +10,43 @@
 {"message":"Unauthorized request to path: /api/folders","level":"error"}
 {"message":"Folder Name is required","level":"error"}
 {"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Folder with id 5 not Found","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/2","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Folder with id 5 not Found","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Cannot destructure property 'folder_Id' of 'req.params' as it is undefined.","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/5","level":"error"}
+{"message":"Folder with id 5 not Found","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"delete from \"bookmarks\" where \"id\" = $1 - relation \"bookmarks\" does not exist","level":"error"}
+{"message":"Unauthorized request to path: /api/folders/1","level":"error"}
+{"message":"Folder with id 1 was deleted","level":"info"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}

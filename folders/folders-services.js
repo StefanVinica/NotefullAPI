@@ -10,7 +10,18 @@ insertFolder(knex,newFolder){
     .then(rows =>{
         return rows[0]
     })
-
+},
+getById(knex,id){
+    return knex
+    .from('folders')
+    .select('*')
+    .where('id',id)
+    .first()
+},
+deleteFolder(knex,id){
+    return knex('folders')
+    .where({id})
+    .delete()
 },
 }
 module.exports = FolderService
