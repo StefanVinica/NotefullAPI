@@ -4,6 +4,7 @@ const logger = require('../src/logger')
 const FolderServices = require('./folders-services')
 const xss = require('xss')
 const FolderService = require('./folders-services')
+const path = require('path')
 
 const foldersRouter = express.Router()
 const bodyParser = express.json()
@@ -34,7 +35,7 @@ foldersRouter
             .then(folder => {
                 res
                     .status(201)
-                    .location(`http://localhost:8080/api/folders/${newFolder.id}`)
+                    .location(path.posix.join(req.originalUrl, `/${newFolder.id}`))
                     .json(serializeFolder(folder))
             })
             .catch(next)
